@@ -212,3 +212,162 @@ input {
     line-height: 50px;
     font-size: 1.2em;
 }
+
+@media screen and (max-width: 980px) {
+    section{
+        width: 66%;
+        margin-left: 25px;
+    }
+
+    p {
+        margin-top: 10px;
+    }
+
+   header h1{
+        margin:0;
+        height: 100%;
+    }
+    header div{
+        width:90%;
+        margin-left: 25px;
+    }
+
+    header {
+        height: 64px;
+    }
+
+    li{
+        padding: 15px 0 20px 20px;
+    }
+
+    .divider {
+        top: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section{
+        width: 90%;
+        margin: auto;
+        margin-top: 85px;
+    }
+
+    p {
+        margin-top: 10px;
+    }
+
+   header h1{
+        margin:0;
+        height: 100%;
+    }
+    header div{
+        width:100%;
+        /* margin-left: 25px; */
+    }
+
+    header {
+        height: 64px;
+        width: 90%;
+        overflow: visible;
+    }
+
+    li{
+        padding: 15px 0 20px 20px;
+    }
+
+    .divider {
+        top: 15px;
+    }
+
+    nav{
+        float: none;
+        position: fixed;
+        right: 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+section{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+header h1{
+    margin:0;
+    height: 60px;
+    position:static;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    width:100%;
+}
+
+header div{
+    /* display: inline-block; */
+    position: static;
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    float: none;
+    overflow: hidden;
+}
+
+header {
+    position: static;
+    width: 100%;
+    display: block;
+    height: 100px;
+    float: none;
+    min-width: 400px;
+}
+
+li {
+    padding: 7px 0 7px 10px;
+}
+
+li a{
+    padding: 5px 10px;
+}
+ul {
+    position: static;
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    margin-left: 25%;
+    float:none;
+}
+
+.divider {
+    position: relative;
+    /* height: 100%; */
+    top:1px;
+    left:1px;
+    
+}
+
+nav{
+    margin-top: 60px;
+    position:static;
+    display:block;
+    height: 40px;
+    width: 100%;
+    float: none;
+}
+
+section img{
+    float: none;
+    width: 90%;
+}
+
+footer{
+    position: static;
+}
+
+}
