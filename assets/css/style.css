@@ -283,6 +283,10 @@ input {
         position: fixed;
         right: 10px;
     }
+
+    .submit {
+        width:75px;
+    }
 }
 
 @media screen and (max-width: 640px) {
