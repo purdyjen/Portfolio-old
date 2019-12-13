@@ -389,4 +389,9 @@ section div{
     color: #ffffff;
     line-height: 50px;
     font-size: 1em;
+    }
+
+    .submit {
+        width:75px;
+    }
 }
