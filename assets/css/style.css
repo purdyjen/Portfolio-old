@@ -189,7 +189,7 @@ input {
 
 /* Portfolio Page Styling */
   section div {
-      width: 35%;
+      /* width: 35%; */
       display: inline-block;
       overflow:hidden;
       z-index: 1;
@@ -203,7 +203,7 @@ input {
     height: 50px;
     position: absolute;
     bottom: 0px;
-    left: 17px;
+    left: 16px;
     right: 0px;
     z-index: 2;
     text-align: center;
