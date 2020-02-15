@@ -189,10 +189,7 @@ input {
 
 /* Portfolio Page Styling */
   section div {
-<<<<<<< HEAD
-      /* width: 35%; */
-=======
->>>>>>> ffb9053157f33663d4c57cd482c329f4fe77bbba
+
       display: inline-block;
       overflow:hidden;
       z-index: 1;
