@@ -133,6 +133,13 @@ footer {
 
 
   /*Contact Page Styling  */
+#email {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+        color: #4aaaa5;
+        margin: 20px;
+        font-size: 1em;
+        padding:  10px 0 20px 0;
+}
 
 form {
     margin:25px;
@@ -222,7 +229,7 @@ input {
     justify-content: center;
 }
 
-.portfolioHeader > a > span {
+.portfolioHeader > a span {
     display: flex;
     color: white;
     position: absolute;
@@ -262,6 +269,12 @@ input {
     .divider {
         top: 15px;
     }
+
+    nav {
+        /* float: none; */
+        position: fixed;
+        right: 10px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -286,7 +299,7 @@ input {
     header {
         height: 64px;
         width: 90%;
-        overflow: visible;
+        overflow: auto;
     }
 
     li{
@@ -298,7 +311,7 @@ input {
     }
 
     nav {
-        float: none;
+        /* float: none; */
         position: fixed;
         right: 10px;
     }
@@ -358,10 +371,11 @@ li a {
 }
 ul {
     position: static;
-    display: inline-block;
-    width: 300px;
+    display: flex;
+    justify-content: center;
+    /* width: 300px; */
     height: 40px;
-    margin-left: 12%;
+    /* margin-left: 12%; */
     float:none;
 }
 
@@ -387,7 +401,7 @@ section img {
 }
 
 footer {
-    position: static;
+    position: fixed;
     margin: 0 auto;
 }
 
@@ -397,22 +411,6 @@ section div{
     left: -10px;
     margin: 0 auto;
 }
-
-.portfolioHeader {
-    width: 95%;
-    background-color: #4aaaa5;
-    height: 50px;
-    position: absolute;
-    bottom: 30px;
-    left: 16px;
-    right: 0px;
-    z-index: 2;
-    text-align: center;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    color: #ffffff;
-    line-height: 50px;
-    font-size: 1em;
-    }
 
     .submit {
         width:75px;
