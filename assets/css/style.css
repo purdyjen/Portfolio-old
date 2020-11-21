@@ -178,6 +178,10 @@ input {
     color: #cccccc;
 }
 
+.container {
+    display: flex;
+
+}
 .portfolio {
     display: inline-block;
     width: 100%;
@@ -191,7 +195,7 @@ input {
   section div {
 
       display: inline-block;
-      overflow:hidden;
+      overflow: visible;
       z-index: 1;
       position: relative;
       left: 17px;
@@ -205,12 +209,27 @@ input {
     bottom: 0px;
     left: 16px;
     right: 0px;
-    z-index: 2;
+    z-index: 10;
     text-align: center;
     font-family: Georgia, Times, 'Times New Roman', serif;
     color: #ffffff;
     line-height: 50px;
     font-size: 1.2em;
+}
+
+.portfolioHeader > h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolioHeader > a > span {
+    display: flex;
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-right: 5px;
+    padding-bottom: 5px;
 }
 
 @media screen and (max-width: 980px) {
