@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-https://purdyjen.github.io/Responsive-Portfolio/
+# Portfolio
+https://purdyjen.github.io/Portfolio/
