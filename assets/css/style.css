@@ -90,7 +90,8 @@ section {
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         padding: 5px;
         border: 1px solid #dddddd;
-        overflow:auto;
+        /* overflow:auto; */
+        
 }
 
 section h1 {
@@ -136,9 +137,29 @@ footer {
 #email {
     font-family: Georgia, Times, 'Times New Roman', serif;
         color: #4aaaa5;
-        margin: 20px;
+        /* margin: 20px;
         font-size: 1em;
+        padding:  10px 0 20px 0; */
+        text-align: center;
+    }
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-github-square {
+    color: #4aaaa5;
+    margin: 20px;
+        font-size: 5em;
         padding:  10px 0 20px 0;
+}
+.fa-linkedin {
+    color: #4aaaa5;
+    margin: 20px;
+        font-size: 5em;
+        padding:  10px 0 20px 0;
+        /* float: left; */
 }
 
 form {
@@ -202,10 +223,10 @@ input {
   section div {
 
       display: inline-block;
-      overflow: visible;
+      /* overflow: visible; */
       z-index: 1;
       position: relative;
-      left: 17px;
+      /* left: 17px; */
 }
 
 .portfolioHeader {
@@ -238,6 +259,16 @@ input {
     padding-right: 5px;
     padding-bottom: 5px;
 }
+
+.container-md {
+    display: flex;
+    max-width: 400px;
+}
+
+.container-md > a {
+    width: 100%;
+}
+
 
 @media screen and (max-width: 980px) {
     section{
