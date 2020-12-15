@@ -223,10 +223,8 @@ input {
   section div {
 
       display: inline-block;
-      /* overflow: visible; */
       z-index: 1;
       position: relative;
-      /* left: 17px; */
 }
 
 .portfolioHeader {
@@ -263,6 +261,7 @@ input {
 .container-md {
     display: flex;
     max-width: 400px;
+    align-items: center;
 }
 
 .container-md > a {
